@@ -35,6 +35,11 @@ body { font-family: 'Inter', system-ui, sans-serif; color: var(--text); backgrou
 .nav-cta:hover { background: var(--green-d) !important; }
 .nav-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; }
 .nav-toggle span { display: block; width: 24px; height: 2px; background: var(--white); border-radius: 2px; transition: all .3s; }
+.lang-toggle { display:flex; align-items:center; gap:.35rem; font-size:.8rem; }
+.lang-toggle span { color:rgba(255,255,255,.3); }
+.lang-btn { background:none; border:none; cursor:pointer; font-size:.8rem; font-weight:700; color:rgba(255,255,255,.5); padding:.2rem .3rem; transition:color .2s; letter-spacing:.5px; }
+.lang-btn.active { color:#fff; }
+.lang-btn:hover { color:#fff; }
 
 /* ── HERO ──────────────────────────────────────────────── */
 .hero {
