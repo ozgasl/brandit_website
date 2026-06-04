@@ -34,17 +34,16 @@ if (fadeEls.length) {
 
 // Metric counter animation
 function animateCount(el) {
-  const raw = el.dataset.target;
-  const isPercent = raw.includes('%');
-  const num = parseFloat(raw.replace(/[^0-9.]/g, ''));
-  const suffix = raw.replace(/[0-9.]/g, '').replace('target', '') || '';
+  const num = parseFloat(el.dataset.target);
+  const prefix = el.dataset.prefix || '';
+  const suffix = el.dataset.suffix || '';
   const dur = 2200;
   const start = performance.now();
   function frame(now) {
     const p = Math.min((now - start) / dur, 1);
     const eased = 1 - Math.pow(1 - p, 3);
     const current = Math.floor(eased * num);
-    el.textContent = (num >= 1000 ? current.toLocaleString('tr-TR') : current) + suffix;
+    el.textContent = prefix + (num >= 1000 ? current.toLocaleString('tr-TR') : current) + suffix;
     if (p < 1) requestAnimationFrame(frame);
   }
   requestAnimationFrame(frame);

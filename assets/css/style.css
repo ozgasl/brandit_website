@@ -96,10 +96,10 @@ body { font-family: 'Inter', system-ui, sans-serif; color: var(--text); backgrou
 .logo-track:hover { animation-play-state: paused; }
 .logo-placeholder { display: flex; align-items: center; justify-content: center; height: 48px; min-width: 140px; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1); border-radius: 8px; padding: 0 1.5rem; font-size: .8rem; font-weight: 700; color: rgba(255,255,255,.5); letter-spacing: .5px; white-space: nowrap; transition: all .2s; }
 .logo-placeholder:hover { background: rgba(255,255,255,.1); color: rgba(255,255,255,.8); }
-.logo-item { display: flex; align-items: center; justify-content: center; height: 56px; min-width: 140px; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.12); border-radius: 8px; padding: 0 1.5rem; transition: all .2s; }
-.logo-item:hover { background: rgba(255,255,255,.14); }
-.logo-item img { max-height: 32px; max-width: 120px; width: auto; object-fit: contain; filter: brightness(0) invert(1); opacity: .65; transition: opacity .2s; }
-.logo-item:hover img { opacity: 1; }
+.logo-item { display: flex; align-items: center; justify-content: center; height: 56px; min-width: 150px; background: rgba(255,255,255,.93); border-radius: 8px; padding: 0 1.5rem; transition: all .2s; }
+.logo-item:hover { background: #fff; box-shadow: 0 4px 16px rgba(0,0,0,.15); }
+.logo-item img { max-height: 34px; max-width: 120px; width: auto; object-fit: contain; filter: grayscale(0.25); opacity: .85; transition: all .2s; }
+.logo-item:hover img { filter: grayscale(0); opacity: 1; }
 .partner-logo-item { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .4rem; padding: 1rem 2rem; background: white; border: 1px solid #E2E8F0; border-radius: 12px; min-width: 140px; height: 90px; transition: box-shadow .2s; }
 .partner-logo-item:hover { box-shadow: 0 4px 20px rgba(0,0,0,.08); }
 .partner-logo-item img { max-height: 36px; max-width: 120px; object-fit: contain; }
