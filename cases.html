@@ -14,33 +14,43 @@
   <div class="nav-inner">
     <a href="index.html" class="nav-logo"><img src="assets/images/logos/brandit-logo.png" alt="BrandIT" class="nav-logo-img" onerror="this.style.display='none';this.parentElement.querySelector('.nav-logo-fallback').style.display='block'" /><span class="nav-logo-fallback" style="display:none;">Brand<span style="color:var(--brand-red)">IT</span></span></a>
     <ul class="nav-links">
-      <li><a href="index.html">Ana Sayfa</a></li>
-      <li><a href="solutions.html">Çözümlerimiz</a></li>
-      <li><a href="platforms.html">Platformlar</a></li>
-      <li><a href="cases.html" class="active">Başarı Hikayeleri</a></li>
-      <li><a href="about.html">Hakkımızda</a></li>
-      <li><a href="contact.html">İletişim</a></li>
-      <li><a href="https://www.sotway.com" target="_blank" class="nav-cta">Analiz Başlat</a></li>
+      <li><a href="index.html" data-i18n="nav_home">Ana Sayfa</a></li>
+      <li><a href="solutions.html" data-i18n="nav_solutions">Çözümlerimiz</a></li>
+      <li><a href="platforms.html" data-i18n="nav_platforms">Platformlar</a></li>
+      <li><a href="cases.html" class="active" data-i18n="nav_cases">Başarı Hikayeleri</a></li>
+      <li><a href="about.html" data-i18n="nav_about">Hakkımızda</a></li>
+      <li><a href="contact.html" data-i18n="nav_contact">İletişim</a></li>
+      <li><a href="https://www.sotway.com" target="_blank" class="nav-cta" data-i18n="nav_cta">Analiz Başlat</a></li>
     </ul>
+    <div class="lang-toggle">
+      <button class="lang-btn active" data-lang="tr">TR</button>
+      <span>|</span>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
     <div class="nav-toggle"><span></span><span></span><span></span></div>
   </div>
 </nav>
 <div class="mobile-nav">
-  <a href="index.html">Ana Sayfa</a>
-  <a href="solutions.html">Çözümlerimiz</a>
-  <a href="platforms.html">Platformlar</a>
-  <a href="cases.html">Başarı Hikayeleri</a>
-  <a href="about.html">Hakkımızda</a>
-  <a href="contact.html">İletişim</a>
-  <a href="https://www.sotway.com" target="_blank" class="nav-cta" style="width:fit-content;margin-top:.5rem;">Analiz Başlat</a>
+  <a href="index.html" data-i18n="nav_home">Ana Sayfa</a>
+  <a href="solutions.html" data-i18n="nav_solutions">Çözümlerimiz</a>
+  <a href="platforms.html" data-i18n="nav_platforms">Platformlar</a>
+  <a href="cases.html" data-i18n="nav_cases">Başarı Hikayeleri</a>
+  <a href="about.html" data-i18n="nav_about">Hakkımızda</a>
+  <a href="contact.html" data-i18n="nav_contact">İletişim</a>
+  <a href="https://www.sotway.com" target="_blank" class="nav-cta" style="width:fit-content;margin-top:.5rem;" data-i18n="nav_cta">Analiz Başlat</a>
+  <div class="lang-toggle" style="margin-top:1rem;">
+    <button class="lang-btn active" data-lang="tr">TR</button>
+    <span style="color:rgba(255,255,255,.4)">|</span>
+    <button class="lang-btn" data-lang="en">EN</button>
+  </div>
 </div>
 
 <!-- PAGE HERO -->
 <section class="page-hero">
   <div class="container">
     <p class="section-label text-center">Başarı Hikayeleri</p>
-    <h1>Gerçek Projeler, Somut Sonuçlar</h1>
-    <p>Türkiye ve dünyadan sanayi liderlerinin dönüşüm hikayelerini inceleyin. Rakamlar konuşuyor.</p>
+    <h1 data-i18n="cases_hero_title">Gerçek Projeler, Somut Sonuçlar</h1>
+    <p data-i18n="cases_hero_sub">Türkiye ve dünyadan sanayi liderlerinin dönüşüm hikayelerini inceleyin. Rakamlar konuşuyor.</p>
   </div>
 </section>
 
@@ -71,14 +81,14 @@
         </div>
         <div class="card-body" style="padding:3rem;">
           <span class="card-tag">Üretim Performansı</span>
-          <h2 style="font-size:1.6rem;font-weight:800;color:#0F172A;margin:1rem 0 1.5rem;line-height:1.3;">Uçtan Uca İzlenebilirlik ile Verimlilik Sıçraması</h2>
+          <h2 style="font-size:1.6rem;font-weight:800;color:#0F172A;margin:1rem 0 1.5rem;line-height:1.3;" data-i18n="case1_title">Uçtan Uca İzlenebilirlik ile Verimlilik Sıçraması</h2>
           <div style="margin-bottom:1.5rem;">
-            <p style="font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#C0392B;margin-bottom:.5rem;">Uygulanan Çözüm</p>
-            <p style="color:#475569;line-height:1.7;">ThingWorx ile gerçek zamanlı üretim izleme ve SAP entegrasyonu hayata geçirildi. Tüm üretim hatlarından anlık veri toplanarak OEE metrikleri şeffaf şekilde izlenmeye başlandı. Arıza nedenleri ve darboğazlar otomatik raporlarla yönetime sunuldu.</p>
+            <p style="font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#C0392B;margin-bottom:.5rem;" data-i18n="cases_solution">Uygulanan Çözüm</p>
+            <p style="color:#475569;line-height:1.7;" data-i18n="case1_solution">ThingWorx ile gerçek zamanlı üretim izleme ve SAP entegrasyonu hayata geçirildi. Tüm üretim hatlarından anlık veri toplanarak OEE metrikleri şeffaf şekilde izlenmeye başlandı. Arıza nedenleri ve darboğazlar otomatik raporlarla yönetime sunuldu.</p>
           </div>
           <div style="margin-bottom:1.5rem;">
-            <p style="font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#C0392B;margin-bottom:.5rem;">Elde Edilen Sonuç</p>
-            <p style="color:#475569;line-height:1.7;"><strong>%21 verimlilik artışı</strong> ve <strong>+150.000 hl ek kapasite</strong> yaratıldı. Kağıt bazlı süreçlerin tamamen dijitalleşmesiyle yönetim kararları veriye dayandı.</p>
+            <p style="font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#C0392B;margin-bottom:.5rem;" data-i18n="cases_result">Elde Edilen Sonuç</p>
+            <p style="color:#475569;line-height:1.7;" data-i18n="case1_result"><strong>%21 verimlilik artışı</strong> ve <strong>+150.000 hl ek kapasite</strong> yaratıldı. Kağıt bazlı süreçlerin tamamen dijitalleşmesiyle yönetim kararları veriye dayandı.</p>
           </div>
           <div style="display:flex;gap:.5rem;flex-wrap:wrap;">
             <span class="tech-badge" style="background:rgba(15,23,42,.07);color:#1E293B;border-color:rgba(15,23,42,.15);">ThingWorx</span>
@@ -106,15 +116,15 @@
           <span class="case-company-badge">Eldor Corporation</span>
         </div>
         <div class="case-body">
-          <h3>Global Tesislerin Tek Merkezden Akıllı Yönetimi</h3>
+          <h3 data-i18n="case2_title">Global Tesislerin Tek Merkezden Akıllı Yönetimi</h3>
           <div class="case-meta">
             <div class="case-meta-item">
-              <strong>Uygulanan Çözüm</strong>
-              4 farklı global üretim sahasının ThingWorx üzerinden tek ekranda canlı izlenmesi.
+              <strong data-i18n="cases_solution">Uygulanan Çözüm</strong>
+              <span data-i18n="case2_solution">4 farklı global üretim sahasının ThingWorx üzerinden tek ekranda canlı izlenmesi.</span>
             </div>
             <div class="case-meta-item">
-              <strong>Elde Edilen Sonuç</strong>
-              Anlık görünürlük, çapraz tesis kıyaslama ve merkezi karar alma kapasitesi oluşturuldu.
+              <strong data-i18n="cases_result">Elde Edilen Sonuç</strong>
+              <span data-i18n="case2_result">Anlık görünürlük, çapraz tesis kıyaslama ve merkezi karar alma kapasitesi oluşturuldu.</span>
             </div>
           </div>
           <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem;">
@@ -134,15 +144,15 @@
           <span class="case-company-badge">Çokyaşar Holding</span>
         </div>
         <div class="case-body">
-          <h3>Kusursuz OT/IT Entegrasyonu ve Merkezi İzleme</h3>
+          <h3 data-i18n="case3_title">Kusursuz OT/IT Entegrasyonu ve Merkezi İzleme</h3>
           <div class="case-meta">
             <div class="case-meta-item">
-              <strong>Uygulanan Çözüm</strong>
-              Kepware ile makinelerin haberleşmesi ve SAP MII'ye anlık veri aktarımı. 3 fabrikanın entegrasyonu.
+              <strong data-i18n="cases_solution">Uygulanan Çözüm</strong>
+              <span data-i18n="case3_solution">Kepware ile makinelerin haberleşmesi ve SAP MII'ye anlık veri aktarımı. 3 fabrikanın entegrasyonu.</span>
             </div>
             <div class="case-meta-item">
-              <strong>Elde Edilen Sonuç</strong>
-              Kesintisiz veri akışı sağlandı, manuel veri girişi tamamen ortadan kalktı.
+              <strong data-i18n="cases_result">Elde Edilen Sonuç</strong>
+              <span data-i18n="case3_result">Kesintisiz veri akışı sağlandı, manuel veri girişi tamamen ortadan kalktı.</span>
             </div>
           </div>
           <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem;">
@@ -162,15 +172,15 @@
           <span class="case-company-badge">Mercedes Benz Türk</span>
         </div>
         <div class="case-body">
-          <h3>Artırılmış Gerçeklik ile İnteraktif Montaj Eğitimi</h3>
+          <h3 data-i18n="case4_title">Artırılmış Gerçeklik ile İnteraktif Montaj Eğitimi</h3>
           <div class="case-meta">
             <div class="case-meta-item">
-              <strong>Uygulanan Çözüm</strong>
-              Vuforia Studio ile montaj operatörleri ve Ar-Ge ekipleri için dijital 3D görsel eğitim yönergeleri.
+              <strong data-i18n="cases_solution">Uygulanan Çözüm</strong>
+              <span data-i18n="case4_solution">Vuforia Studio ile montaj operatörleri ve Ar-Ge ekipleri için dijital 3D görsel eğitim yönergeleri.</span>
             </div>
             <div class="case-meta-item">
-              <strong>Elde Edilen Sonuç</strong>
-              Kısalan eğitim süresi, azalan operatör hatası ve artırılmış iş güvenliği sağlandı.
+              <strong data-i18n="cases_result">Elde Edilen Sonuç</strong>
+              <span data-i18n="case4_result">Kısalan eğitim süresi, azalan operatör hatası ve artırılmış iş güvenliği sağlandı.</span>
             </div>
           </div>
           <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem;">
@@ -207,11 +217,11 @@
 <section class="cta-section">
   <div class="container fade-up">
     <p class="section-label" style="text-align:center;">Siz de Başarı Hikayenizi Yazın</p>
-    <h2>Endüstri 4.0'a Ne Kadar Hazırsınız?</h2>
-    <p>Tesisinizin dijitalleşme potansiyelini keşfedin. Bilimsel metotlarla hazırlanan Sotway analizini tamamlayın ve size özel yol haritanızı hemen oluşturalım.</p>
+    <h2 data-i18n="cta_title">Endüstri 4.0'a Ne Kadar Hazırsınız?</h2>
+    <p data-i18n="cta_body">Tesisinizin dijitalleşme potansiyelini keşfedin. Bilimsel metotlarla hazırlanan Sotway analizini tamamlayın ve size özel yol haritanızı hemen oluşturalım.</p>
     <a href="https://www.sotway.com" target="_blank" class="btn btn-primary btn-lg">
       <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
-      Analize Başla (Sotway'e Git)
+      <span data-i18n="cta_btn">Analize Başla</span>
     </a>
   </div>
 </section>
@@ -221,7 +231,7 @@
   <div class="footer-grid">
     <div>
       <div class="footer-logo">Brand<span>IT</span></div>
-      <p>Sanayide dijital dönüşümün güvenilir mühendislik ortağı.</p>
+      <p data-i18n="footer_desc">Sanayide dijital dönüşümün güvenilir mühendislik ortağı.</p>
       <div class="footer-social" style="margin-top:1.5rem;">
         <a href="https://www.linkedin.com/company/brandit" target="_blank" title="LinkedIn">
           <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
@@ -229,7 +239,7 @@
       </div>
     </div>
     <div class="footer-col">
-      <h4>Hızlı Bağlantılar</h4>
+      <h4 data-i18n="footer_quick">Hızlı Bağlantılar</h4>
       <ul>
         <li><a href="solutions.html">Çözümlerimiz</a></li>
         <li><a href="platforms.html">Platformlar</a></li>
@@ -241,7 +251,7 @@
       </ul>
     </div>
     <div class="footer-col">
-      <h4>İletişim</h4>
+      <h4 data-i18n="footer_contact_title">İletişim</h4>
       <ul>
         <li><a href="mailto:oaslan@brandit.tech">oaslan@brandit.tech</a></li>
         <li><a href="tel:+905323312418">+90 532 331 24 18</a></li>
@@ -255,6 +265,7 @@
   </div>
 </footer>
 
+<script src="assets/js/i18n.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>
