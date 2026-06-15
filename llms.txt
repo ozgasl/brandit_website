@@ -1,0 +1,17 @@
+# BrandIT
+
+> BrandIT, Türkiye merkezli, üretim ve sanayi kuruluşlarına Endüstri 4.0 / dijital dönüşüm konusunda uçtan uca mühendislik ve strateji ortaklığı sunan bir teknoloji firmasıdır. "Pilot tuzağına" düşmeden, bilimsel bir Dijital Olgunluk Analizi (Sotway platformu üzerinden) ile başlayan, iş modeli + teknoloji + organizasyonu birlikte dönüştüren "Üçlü Dönüşüm" yaklaşımını uygular. ThingWorx, Kepware, Splunk, PTC Vuforia ve kendi yapay zeka asistanı Cedrix gibi platformlarla IIoT, kestirimci bakım, makine görü (machine vision), enerji yönetimi, artırılmış gerçeklik (AR) ve endüstriyel yapay zeka çözümleri sağlar.
+
+## Pages
+
+- [Ana Sayfa](https://brandit.tech/): Genel tanıtım, Üçlü Dönüşüm yaklaşımı, müşteri başarı metrikleri (OEE artışı, kapasite, izlenen makine sayısı).
+- [Çözümlerimiz](https://brandit.tech/solutions.html): Üretim performans yönetimi (OEE), kestirimci bakım, makine görü, enerji & sürdürülebilirlik yönetimi, artırılmış gerçeklik ve Cedrix yapay zeka asistanı çözümleri.
+- [Platformlar](https://brandit.tech/platforms.html): Teknoloji altyapısı — ThingWorx & Splunk (IIoT/Analitik), Cedrix (Endüstriyel YZ), Kepware (OT/IT bağlanabilirlik), PTC Vuforia (artırılmış gerçeklik).
+- [Başarı Hikayeleri](https://brandit.tech/cases.html): Türk Tuborg, Eldor Corporation, Çokyaşar Holding, Mercedes Benz Türk ve diğer referans projelerden somut sonuçlar.
+- [Hakkımızda](https://brandit.tech/about.html): BrandIT'in mühendislik DNA'sı, yaklaşımı, farklılaştırıcıları ve değerleri.
+- [İletişim](https://brandit.tech/contact.html): İletişim formu, adres, telefon, e-posta ve Sotway analizine başlama bağlantısı.
+
+## Key Links
+
+- [Sotway](https://www.sotway.com): BrandIT'in Dijital Olgunluk Analizi platformu — her proje burada bilimsel bir analizle başlar.
+- [Cedrix](https://www.cedrix.io): BrandIT'in geliştirdiği, Zero Egress mimarili, %100 KVKK/GDPR uyumlu endüstriyel yapay zeka asistanı.
